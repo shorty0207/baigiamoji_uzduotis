@@ -20,7 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0eb9a9c-ff80-4e07-8f0f-59812c6ca6a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/controller/connectDB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +37,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1p9POvZkmyTbdnuDqXCB317dGN4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -59,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614592303148</updated>
       <workItem from="1614592304186" duration="998000" />
-      <workItem from="1614593707549" duration="118000" />
+      <workItem from="1614593707549" duration="1000000" />
     </task>
     <servers />
   </component>
