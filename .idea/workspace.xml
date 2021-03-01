@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d0eb9a9c-ff80-4e07-8f0f-59812c6ca6a1" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/controller/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/logout.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/controller/register.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -68,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614592303148</updated>
       <workItem from="1614592304186" duration="998000" />
-      <workItem from="1614593707549" duration="18587000" />
+      <workItem from="1614593707549" duration="19841000" />
     </task>
     <servers />
   </component>

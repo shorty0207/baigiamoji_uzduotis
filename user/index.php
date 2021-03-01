@@ -50,13 +50,18 @@ if (!isset($_SESSION['email'])) {
         <li class="nav-item mr-3">
             <a class="nav-link" href="#popup2">Sign Up</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item mr-5">
             <a class="nav-link" href="#popup1">Log In</a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#"><?php echo $_SESSION['email'] ?></a>
+        <li class="nav-item dropdown dropleft">
+            <a class="nav-link" href="#" data-toggle="dropdown">
+                <img src="../image/default-user.png" style="width:30px; border-radius:50%;" alt="logo ">
+            </a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item disabled" style="color:silver; text-transform:lowercase;" href="#"><?php echo $_SESSION['email'] ?></a>
+                <a class="dropdown-item" style="color:#fff;" href="../controller/logout.php">Log Out</a>
+            </div>
         </li>
-
     </ul>
 </nav>
 
