@@ -143,29 +143,45 @@ if (isset($_SESSION['username'])) {
                 <div class="justify-content-between">
                     <div class="d-flex mt-5 justify-content-between">
                         <div class="card1" style="width: 25%">
-                            <div class="card" style="width: 18rem; height: 300px">
+                            <div class="card" style="width: 18rem; height: 325px">
                                 <img style="height: 120px" src="../image/image4.png" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                                        card's content.</p>
+                                    <h4><b>Premium</b></h4>
+                                    <p class="card-text">
+                                    <h6>7 professional workouts</h6>
+                                    <h6>Just on evenings</h6>
+                                    <h6>Trainer motivation and support on facebook group</h6>
+                                    <h4><b>25 eur/mth</b></h4>
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div class="card2" style="width: 25%">
-                            <div class="card" style="width: 18rem; height: 300px">
-                                <img style="height: 120px" src="../image/image3.jpg" style="height: 40%" class="card-img-top" alt="...">
+                            <div class="card" style="width: 18rem; height: 325px">
+                                <img style="height: 120px" src="../image/image3.jpg" style="height: 40%"
+                                     class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                                        card's content.</p>
+                                    <h4><b>Flex</b></h4>
+                                    <p class="card-text">
+                                        <h6>10 professional workouts</h6>
+                                        <h6>Pool for free</h6>
+                                        <h6>Trainer motivation and support on facebook group</h6>
+                                        <h4><b>35 eur/mth</b></h4>
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div class="card3" style="width: 25%">
-                            <div class="card" style="width: 18rem; height: 300px">
+                            <div class="card" style="width: 18rem; height: 325px">
                                 <img style="height: 120px" src="../image/image5.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                                        card's content.</p>
+                                    <h4><b>VIP</b></h4>
+                                    <div class="card-text">
+                                        <h6>12 professional workouts</h6>
+                                        <h6>Pool, sauna always for free</h6>
+                                        <h6>Trainer motivation and support on facebook group</h6>
+                                        <h4><b>45 eur/mth</b></h4>
+                                    </div>
                                 </div>
                             </div>
                         </div>

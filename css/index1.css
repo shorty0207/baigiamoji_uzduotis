@@ -195,6 +195,11 @@ a:hover {
     height: 150px;
     width: 800px;
 }
-.card {
-    z-index: 0;
+.clrTom {
+    font-size: 50px;
+    color: tomato;
+}
+.comment-img img{
+    height: 200px;
+    width: 100%;
 }

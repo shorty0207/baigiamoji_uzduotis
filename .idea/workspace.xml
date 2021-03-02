@@ -21,11 +21,15 @@
   <component name="ChangeListManager">
     <list default="true" id="d0eb9a9c-ff80-4e07-8f0f-59812c6ca6a1" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/controller/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/logout.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/controller/register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/comment.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/visit.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/connectDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/connectDB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/guest/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/guest/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/index.php" afterDir="false" />
     </list>
@@ -51,7 +55,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../movies-info" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gym" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -69,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614592303148</updated>
       <workItem from="1614592304186" duration="998000" />
-      <workItem from="1614593707549" duration="19841000" />
+      <workItem from="1614593707549" duration="28131000" />
     </task>
     <servers />
   </component>
@@ -88,9 +92,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="1680" y="122" key="FileChooserDialogImpl" timestamp="1614612569144">
-      <screen x="1366" y="0" width="1680" height="1010" />
+    <state x="1725" y="126" key="FileChooserDialogImpl" timestamp="1614670327899">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="1680" y="122" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1680.1010@1366.0.1680.1010" timestamp="1614612569144" />
+    <state x="1725" y="126" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1614670327899" />
   </component>
 </project>

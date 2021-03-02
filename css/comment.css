@@ -1,0 +1,14 @@
+body{
+    background-color: #1b1e21;
+}
+
+
+.comment-title{
+    color: tomato;
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+}
+.club-inside img{
+    height: 500px;
+    width: 100%;
+}
