@@ -17,22 +17,13 @@ if (!isset($_SESSION['email'])) {
     <title>Welcome to Dream Club</title>
     <link rel="stylesheet" href="../css/index1.css">
     <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet'>
-
-    <!-- Latest compiled and minified CSS -->
     <link rel=" stylesheet " href="../css/bootstrap.min.css ">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <link rel="stylesheet" href="../css/popup.css">
-
 </head>
 
 <body>
 <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top ">
-    <!-- Brand/logo -->
-
-
-    <!-- Links -->
     <ul class="navbar-nav mr-auto ml-5">
         <li class="nav-item">
             <a class="nav-link active" href="#">Home</a>
@@ -41,7 +32,7 @@ if (!isset($_SESSION['email'])) {
             <a class="nav-link" href="browse.php">About Us</a>
         </li>
     </ul>
-    <!-- Links -->
+
     <ul class="navbar-nav mr-5">
         <li class="nav-item mr-3">
             <a class="nav-link" href="#popup2">Sign Up</a>
@@ -57,14 +48,14 @@ if (!isset($_SESSION['email'])) {
                 <img src="../image/default-user.png" style="width:30px; border-radius:50%;" alt="logo ">
             </a>
             <div class="dropdown-menu">
-                <a class="dropdown-item disabled" style="color:silver; text-transform:lowercase;" href="#"><?php echo $_SESSION['email'] ?></a>
+                <a class="dropdown-item disabled" style="color:silver; text-transform:lowercase;"
+                   href="#"><?php echo $_SESSION['email'] ?></a>
                 <a class="dropdown-item" style="color:#fff;" href="../controller/logout.php">Log Out</a>
             </div>
         </li>
     </ul>
 </nav>
 
-<!-- Pop up boxes for login and registration -->
 <div id="popup1" class="popup-overlay">
     <div class="log-popup">
         <h2>Log In</h2>
@@ -136,74 +127,67 @@ if (!isset($_SESSION['email'])) {
         </div>
     </div>
 </div>
-<!-- End of Pop up boxes for login and registration -->
-
-
-<header>
-    <div class="container body ">
-        <center>
-            <div class="justify-content-between">
-                <div class="inner-body">
-                    <h1 class="title ">Welcome to
-                        <span style="color: tomato ">Dream Team Sport Club</span>
-                    </h1>
-                    <div class="mb-0">
-                        <img style="height: 300px; width: 100%" src="../image/gym-1.jpg" alt="">
-                    </div>
+<div class="container body ">
+    <center>
+        <div class="justify-content-between">
+            <div class="inner-body">
+                <h1 class="title ">Welcome to
+                    <span style="color: tomato ">Dream Team Sport Club</span>
+                </h1>
+                <div class="mb-0">
+                    <img style="height: 300px; width: 100%" src="../image/gym-1.jpg" alt="">
                 </div>
-                <div class="justify-content-between">
-                    <div class="d-flex mt-5 justify-content-between">
-                        <div class="card1" style="width: 25%">
-                            <div class="card" style="width: 18rem; height: 325px">
-                                <img style="height: 120px" src="../image/image4.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h4><b>Premium</b></h4>
-                                    <p class="card-text">
-                                    <h6>7 professional workouts</h6>
-                                    <h6>Just on evenings</h6>
-                                    <h6>Trainer motivation and support on facebook group</h6>
-                                    <h4><b>25 eur/mth</b></h4>
-                                    </p>
-                                </div>
+            </div>
+            <div class="justify-content-between">
+                <div class="d-flex mt-5 justify-content-between">
+                    <div class="card1" style="width: 25%">
+                        <div class="card" style="width: 18rem; height: 325px">
+                            <img style="height: 120px" src="../image/image4.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4><b>Premium</b></h4>
+                                <p class="card-text">
+                                <h6>7 professional workouts</h6>
+                                <h6>Just on evenings</h6>
+                                <h6>Trainer motivation and support on facebook group</h6>
+                                <h4><b>25 eur/mth</b></h4>
+                                </p>
                             </div>
                         </div>
-                        <div class="card2" style="width: 25%">
-                            <div class="card" style="width: 18rem; height: 325px">
-                                <img style="height: 120px" src="../image/image3.jpg" style="height: 40%"
-                                     class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h4><b>Flex</b></h4>
-                                    <p class="card-text">
-                                    <h6>10 professional workouts</h6>
-                                    <h6>Pool for free</h6>
-                                    <h6>Trainer motivation and support on facebook group</h6>
-                                    <h4><b>35 eur/mth</b></h4>
-                                    </p>
-                                </div>
+                    </div>
+                    <div class="card2" style="width: 25%">
+                        <div class="card" style="width: 18rem; height: 325px">
+                            <img style="height: 120px" src="../image/image3.jpg" style="height: 40%"
+                                 class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4><b>Flex</b></h4>
+                                <p class="card-text">
+                                <h6>10 professional workouts</h6>
+                                <h6>Pool for free</h6>
+                                <h6>Trainer motivation and support on facebook group</h6>
+                                <h4><b>35 eur/mth</b></h4>
+                                </p>
                             </div>
                         </div>
-                        <div class="card3" style="width: 25%">
-                            <div class="card" style="width: 18rem; height: 325px">
-                                <img style="height: 120px" src="../image/image5.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h4><b>VIP</b></h4>
-                                    <div class="card-text">
-                                        <h6>12 professional workouts</h6>
-                                        <h6>Pool, sauna always for free</h6>
-                                        <h6>Trainer motivation and support on facebook group</h6>
-                                        <h4><b>45 eur/mth</b></h4>
-                                    </div>
+                    </div>
+                    <div class="card3" style="width: 25%">
+                        <div class="card" style="width: 18rem; height: 325px">
+                            <img style="height: 120px" src="../image/image5.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4><b>VIP</b></h4>
+                                <div class="card-text">
+                                    <h6>12 professional workouts</h6>
+                                    <h6>Pool, sauna always for free</h6>
+                                    <h6>Trainer motivation and support on facebook group</h6>
+                                    <h4><b>45 eur/mth</b></h4>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </center>
-    </div>
-
-</header>
-
+        </div>
+    </center>
+</div>
 <div class="about-box ">
     <center>
         <div class="about ">

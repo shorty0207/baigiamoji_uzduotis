@@ -20,18 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0eb9a9c-ff80-4e07-8f0f-59812c6ca6a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controller/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/register.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/comment.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/visit.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/connectDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/connectDB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/logout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guest/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/guest/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/comment.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/comment.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/gymrequest.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/request.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guest/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/visit.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/visit.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +60,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\baigiamojiUzduotis" />
+      <recent name="C:\wamp64\www\baigiamojiUzduotis\guest" />
+      <recent name="C:\wamp64\www\baigiamojiUzduotis\app" />
+      <recent name="C:\wamp64\www\baigiamojiUzduotis\public" />
       <recent name="C:\wamp64\baigiamojiUzduotis\user" />
     </key>
   </component>
@@ -73,7 +76,8 @@
       <option name="presentableId" value="Default" />
       <updated>1614592303148</updated>
       <workItem from="1614592304186" duration="998000" />
-      <workItem from="1614593707549" duration="28131000" />
+      <workItem from="1614593707549" duration="40714000" />
+      <workItem from="1614755040524" duration="4751000" />
     </task>
     <servers />
   </component>
@@ -90,6 +94,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1725" y="126" key="FileChooserDialogImpl" timestamp="1614670327899">
@@ -97,5 +102,9 @@
     </state>
     <state x="1680" y="122" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1680.1010@1366.0.1680.1010" timestamp="1614612569144" />
     <state x="1725" y="126" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1614670327899" />
+    <state x="1674" y="234" key="run.anything.popup" timestamp="1614678828976">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1674" y="234" key="run.anything.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1614678828976" />
   </component>
 </project>

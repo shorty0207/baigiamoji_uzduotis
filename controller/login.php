@@ -14,7 +14,7 @@ if ($num == 1) {
 
     $_SESSION['email'] = strtolower($email);
 
-    if ($_SESSION['username']=="admin") {
+    if ($_SESSION['email']=="admin") {
         header('location: ../admin/index.php');
         $_SESSION['status'] = 'admin';
     } else {
@@ -22,7 +22,7 @@ if ($num == 1) {
         $_SESSION['status'] = 'user';
     }
 } else {
-    header('location: ../guest/index.php#error1');
+    header('location: ../index.php#error1');
 }
 $conn->close();
 ?>

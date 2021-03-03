@@ -9,6 +9,7 @@ $surname = $_POST['surname'];
 $email =$_POST['email'];
 $password = $_POST['password'];
 
+
 //Validation
 $sql = "SELECT * FROM userdata WHERE name = '$name' OR email = '$email'";
 
@@ -16,7 +17,7 @@ $res = $conn->query($sql);
 $num = mysqli_num_rows($res);
 
 if ($num >= 1) {
-    if ($_SESSION['name']=="admin") {
+    if ($_SESSION['name']=="name") {
         header('location: ../users/index.php#error');
     } else {
         header('location: ../guest/index.php#error');
@@ -26,10 +27,10 @@ if ($num >= 1) {
 
     $result = $conn -> query($sql);
 
-    if ($_SESSION['username']=="admin") {
+    if ($_SESSION['username']=="name") {
         header('location: ../admin/users.php#success');
     } else {
-        header('location: ../guest/index.php#success');
+        header('location: ../index.php#success');
     }
 }
 $conn->close();
